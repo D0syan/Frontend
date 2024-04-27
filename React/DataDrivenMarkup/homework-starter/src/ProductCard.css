@@ -1,0 +1,41 @@
+.cards {
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.discount-price {
+    font-size: 24px;
+    color: #03bd12;
+    font-weight: 600;
+}
+
+.old-price {
+    font-size: 24px;
+    color: #3a413b;
+}
+
+.prices {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+img {
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 0;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 0;
+}

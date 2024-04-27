@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <section class="content">
+      <h1 class="main-title">SVG-Спрайты</h1>
+      <div class="container hero">
+        <h2 class="title">Как это работает?</h2>
+        <div class="block">
+          <div class="cards"><svg class="icon">
+              <use xlink:href="sprite.svg#coffee"></use>
+            </svg>
+            <div class="card-text">
+              <h3 class="hero-title">
+                Утренний <span class="orange-text">кофе</span>
+              </h3>
+              <p class="hero-descr">
+                Кофеин воздействует на центральную нервную систему как природный “будильник”. Поэтому мы быстрее
+                просыпаемся.
+              </p>
+            </div>
+          </div>
+          <div class="cards"><svg class="icon">
+              <use xlink:href="sprite.svg#meditation"></use>
+            </svg>
+            <div class="card-text">
+              <h3 class="hero-title">
+                Час <span class="orange-text">медитации</span>
+              </h3>
+              <p class="hero-descr">
+                После практик оба полушария мозга начинают работать сбалансированно — это привносит порядок в вашу
+                жизнь.
+              </p>
+            </div>
+          </div>
+          <div class="cards"><svg class="icon">
+              <use xlink:href="sprite.svg#sprint"></use>
+            </svg>
+            <div class="card-text">
+              <h3 class="hero-title">
+                Вперёд&nbsp;к&nbsp;<span class="orange-text">свершениям!</span>
+              </h3>
+              <p class="hero-descr">
+                Ресурсы каждого человека ограничены, поэтому нам необходимо беречь себя и вовремя останавливаться.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <section class="footer-sect">
+    <div class="container footer">
+      <div class="left-content">
+        <h2 class="footer-tite">
+          Интеграция со сторонними сервисами
+        </h2>
+        <p class="footer-descr">
+          Поможет всегда оставаться в курсе всех событий, быть максимально эффективным на протяжении всего рабочего
+          дня, контролировать свои задачи и не опоздать на запланированные встречи.
+        </p>
+      </div>
+      <div class="right-content">
+        <svg class="ficon1">
+          <use xlink:href="sprite.svg#background"></use>
+        </svg>
+
+        <svg class="ficon2">
+          <use xlink:href="sprite.svg#messengers"></use>
+        </svg>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

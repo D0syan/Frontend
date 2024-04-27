@@ -1,0 +1,110 @@
+.container {
+  width: 1325px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 57px;
+}
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+.icon {
+  margin-bottom: 21px;
+  height: 288px;
+}
+
+.main-title {
+  display: none;
+}
+
+.hero-title {
+  margin-bottom: 6px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 60px
+}
+
+.content {
+  background-color: #FFF6ED;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.left-content {
+  padding-top: 60px;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.hero-descr {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.orange-text {
+  color: #FF7A00;
+}
+
+.footer {
+  display: flex;
+  padding-top: 15px;
+  gap: 183px;
+}
+
+.cards {
+  margin-bottom: 42px;
+}
+
+.footer-descr {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 592px;
+}
+
+.footer-tite {
+  max-width: 592px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 11px;
+}
+
+
+.ficon1 {
+  width: 550px;
+  height: 275px;
+}
+
+.right-content {
+  position: relative;
+}
+
+.ficon2 {
+  position: absolute;
+  width: 550px;
+  height: 275px;
+  left: 101px;
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["header.js","main.js"],"names":["fn","arg","console","log"],"mappings":";;AAAA,IAAMA,EAAE,GAAG,SAALA,EAAK,CAACC,GAAD,EAAS;AACnBC,EAAAA,OAAO,CAACC,GAAR,CAAYF,GAAZ;AACA,CAFD;;;ACAAD,EAAE,CAAC,aAAD,CAAF","file":"main.js","sourcesContent":["const fn = (arg) => {\n\tconsole.log(arg);\n};","fn('some string');"]}
