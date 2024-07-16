@@ -1,0 +1,14 @@
+.link {
+    color: aqua
+    
+}
+
+.playlist-link-container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
